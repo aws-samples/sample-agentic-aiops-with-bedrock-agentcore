@@ -1,0 +1,22 @@
+[
+  {
+    "name": "<SERVER-NAME-1>",
+    "ip": "<SERVER-IP-1>"
+  },
+  {
+    "name": "<SERVER-NAME-2>",
+    "ip": "<SERVER-IP-2>"
+  },
+  {
+    "name": "<SERVER-NAME-3>",
+    "ip": "<SERVER-IP-3>"
+  },
+  {
+    "name": "<SERVER-NAME-4>",
+    "ip": "<SERVER-IP-4>"
+  },
+  {
+    "name": "<SERVER-NAME-5>",
+    "ip": "<SERVER-IP-5>"
+  }
+]

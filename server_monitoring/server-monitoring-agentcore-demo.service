@@ -1,0 +1,15 @@
+[Unit]
+Description=Server Monitoring AgentCore Demo
+After=network.target
+
+[Service]
+Type=simple
+User=ec2-user
+WorkingDirectory=/home/ec2-user/Incident-Management-Multi-Agent-System-using-Bedrock-Agentcore/server_monitoring
+Environment="SERVICENOW_API_KEY=<Service-Now-API-Key>"
+ExecStart=/usr/bin/python3 /home/ec2-user/Incident-Management-Multi-Agent-System-using-Bedrock-Agentcore/server_monitoring/server-monitoring-agentcore-demo.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
